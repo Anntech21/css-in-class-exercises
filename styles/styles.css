@@ -2,10 +2,17 @@
   Add border style rules that are at least 5 pixels and a color of your choice.
 */
 
+h1 {
+  color: blue;
+}
+.red-text {
+  color: red;
+}
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   color: darkslategray;
+  border: 2px solid black;
 }
 
 nav {
@@ -14,6 +21,7 @@ nav {
   height: 80px;
   display: flex;
   align-items: center;
+  border: 1px dotted burlywood;
 }
 
 nav ul {
@@ -22,6 +30,7 @@ nav ul {
   justify-content: flex-end;
   align-items: center;
   margin-right: 2em;
+  border: 1px dotted blueviolet;
 }
 
 nav ul li {
@@ -30,22 +39,26 @@ nav ul li {
   text-transform: uppercase;
   color: whitesmoke;
   font-weight: bolder;
+  border-bottom: 0.5px solid blue;
 }
 
 nav img {
   width: 50px;
   margin-left: 2em;
   border-radius: 100%;
+  box-shadow: 2px grey;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  border-style: dashed;
 }
 
 .section {
   margin-top: 0px;
   padding: 3em;
+  border-width: 1px solid green;
 }
 
 .headers-section {
@@ -179,7 +192,6 @@ button {
 
 .left-content-box li {
   margin-top: 1em;
-
 }
 
 .left-content-box p {
